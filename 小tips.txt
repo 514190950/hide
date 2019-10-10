@@ -1,2 +1,4 @@
 1.问：为什么要选举leader
   答：执行事务
+2.问: 为什么redis的string类型是安全的
+  答: redis的string通过安全的SDS编码 存储二进制数据 而不是字符
